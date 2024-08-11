@@ -1,0 +1,23 @@
+// <---------------------- Colors ---------------------->
+$light-theme-colors: (
+  //   Black
+  'black-high': rgba(5, 5, 5, 0.8),
+  'black-semi': rgba(5, 5, 5, 0.5),
+  'black-low': rgba(5, 5, 5, 0.3),
+  'black-very-low': rgba(5, 5, 5, 0.2),
+  'black-max-opacity': rgba(5, 5, 5, 0.18),
+  //   White
+  'white-full': rgba(248, 248, 248, 1),
+  'white-semi-dark': rgba(248, 248, 248, 0.6),
+  'white-semi-medium': rgba(248, 248, 248, 0.5),
+  'white-semi-faint': rgba(248, 248, 248, 0.2),
+  'white-semi-light': rgba(248, 248, 248, 0.1)
+);
+
+// <---------------------- Transition ---------------------->
+$transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+// <---------------------- Breakpoints ---------------------->
+$mobile: 320px;
+$tablet: 768px;
+$desktop: 1280px;
